@@ -1,0 +1,35 @@
+.searchInput {
+    display: flex;
+    width: 500px;
+    margin: auto;
+    /* border: 1px solid red; */
+  }
+.search input {
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 15px;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+input:focus {
+    outline: none;
+  }
+.searchIcon {
+    color: rgba(0, 0, 0, 0.54);
+    height: 55px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    padding-left: 10px;
+    /* margin-right: -10px; */
+
+  }
+.clearBtn{
+  cursor: pointer;
+}
+ 
